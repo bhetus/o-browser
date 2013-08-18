@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires about_o_browser_dialog 1.0 -->
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="AboutOBrowserDialog" id="about_o_browser_dialog">
+    <property name="can_focus">False</property>
+    <property name="border_width">5</property>
+    <property name="icon">../media/background.png</property>
+    <property name="type_hint">normal</property>
+    <property name="program_name">O Browser</property>
+    <property name="version">v 0.1</property>
+    <property name="copyright" translatable="yes">OSAC 2013</property>
+    <property name="website">http://www.osac.org.np</property>
+    <property name="website_label" translatable="yes">Visit us</property>
+    <property name="license" translatable="yes">Opengl</property>
+    <property name="authors">Utsav Bhetuwal</property>
+    <property name="logo">../media/o-browser.svg</property>
+    <property name="logo_icon_name">o browser</property>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="dialog-vbox1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="dialog-action_area1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="layout_style">end</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

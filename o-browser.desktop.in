@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=O Browser
+_Comment=OBrowser application
+Categories=GNOME;Utility;
+Exec=o-browser
+Icon=/usr/share/o-browser/media/o-browser.svg
+Terminal=false
+Type=Application
